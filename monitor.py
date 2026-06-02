@@ -28,7 +28,7 @@ def load_config(path="config/settings.json"):
     except FileNotFoundError:
         return {"services": ["nginx", "ssh"],
                 "thresholds": {"cpu": 85, "mem": 90},
-                "endpoints": ["http://localhost:8069/health"]}
+                "endpoints": ["http://localhost:8069"]}
 
 # ── اپیزود ۶: subprocess ───────────────────────────
 def check_service(name, logger):
