@@ -1,4 +1,3 @@
-{
-    "cpu": 85,
-    "services": ["nginx"]
-  }
+{ "services": ["nginx", "sshd"],
+    "thresholds": { "cpu": 85, "mem": 90 }, 
+    "endpoints": [ "http://localhost:8069/" ] }
