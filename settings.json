@@ -1,0 +1,4 @@
+{
+    "cpu": 85,
+    "services": ["nginx"]
+  }
