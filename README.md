@@ -86,15 +86,3 @@ server-monitor/ │ ├── monitor.py ├── config/ │   └── setti
 - پشتیبانی از Docker health checks
 
 ---
-
-## 📜 لایسنس
-
-MIT License
-
-اگر خواستی می‌توانم:
-
-نسخهٔ انگلیسی بسازم → README انگلیسی
-
-برای پروژه لوگو طراحی کنم → طراحی لوگو
-
-README را با badgeهای GitHub حرفه‌ای‌تر کنم → افزودن badge
